@@ -1,6 +1,6 @@
 package com.example.Amaze.Model;
 
-import com.example.Amaze.Enum.Categery;
+import com.example.Amaze.Enum.Category;
 import com.example.Amaze.Enum.ProductStatus;
 import jakarta.persistence.*;
 import lombok.*;
@@ -16,6 +16,7 @@ import java.util.List;
 @Builder
 @FieldDefaults(level = AccessLevel.PRIVATE)
 @Table(name= "product")
+
 public class Product {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -28,7 +29,7 @@ public class Product {
     Integer price;
 
     @Enumerated(EnumType.STRING)
-    Categery categery;
+    Category category;
 
     @Enumerated(EnumType.STRING)
     ProductStatus productStatus;

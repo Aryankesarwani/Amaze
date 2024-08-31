@@ -20,9 +20,9 @@ public class Seller {
     int id;
 
     String name;
-
+    @Column(unique = true, nullable = false)
     String email;
-
+    @Column(unique = true, nullable = false)
     String phone;
 
     @OneToMany(mappedBy = "seller",cascade = CascadeType.ALL)

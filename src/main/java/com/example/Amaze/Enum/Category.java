@@ -1,6 +1,6 @@
 package com.example.Amaze.Enum;
 
-public enum Categery {
+public enum Category {
     FASHION,
     SPORTS,
     ELECTRONICS,

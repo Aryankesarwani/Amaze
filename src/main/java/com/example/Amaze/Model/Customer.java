@@ -22,8 +22,9 @@ public class Customer {
     int id;
     String name;
 
+    @Column(unique = true,nullable = false)
     String email;
-
+    @Column(unique = true,nullable = false)
     String phone;
 
     String addr;
