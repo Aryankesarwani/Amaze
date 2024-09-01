@@ -3,7 +3,7 @@ package com.example.Amaze.Service.Impl;
 import com.example.Amaze.Dao.ProductRepo;
 import com.example.Amaze.Dao.SellerRepo;
 import com.example.Amaze.Dto.ResponseDto.ProductResponse;
-import com.example.Amaze.Dto.ReuestDto.ProductRequest;
+import com.example.Amaze.Dto.RequestDto.ProductRequest;
 import com.example.Amaze.Enum.Category;
 import com.example.Amaze.Exception.ProductAlreadyExistException;
 import com.example.Amaze.Exception.SellerNotFound;

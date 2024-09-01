@@ -1,6 +1,6 @@
 package com.example.Amaze.Service;
 
-import com.example.Amaze.Dto.ReuestDto.CustomerRequest;
+import com.example.Amaze.Dto.RequestDto.CustomerRequest;
 import org.springframework.stereotype.Service;
 
 @Service

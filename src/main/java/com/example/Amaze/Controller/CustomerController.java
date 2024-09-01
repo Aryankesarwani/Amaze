@@ -1,6 +1,6 @@
 package com.example.Amaze.Controller;
 
-import com.example.Amaze.Dto.ReuestDto.CustomerRequest;
+import com.example.Amaze.Dto.RequestDto.CustomerRequest;
 import com.example.Amaze.Service.CustomerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

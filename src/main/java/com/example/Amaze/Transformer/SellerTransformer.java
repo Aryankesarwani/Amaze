@@ -1,7 +1,7 @@
 package com.example.Amaze.Transformer;
 
 import com.example.Amaze.Dto.ResponseDto.SellerResponse;
-import com.example.Amaze.Dto.ReuestDto.SellerRequest;
+import com.example.Amaze.Dto.RequestDto.SellerRequest;
 import com.example.Amaze.Model.Seller;
 
 public class SellerTransformer {

@@ -1,7 +1,7 @@
 package com.example.Amaze.Transformer;
 
 import com.example.Amaze.Dto.ResponseDto.ProductResponse;
-import com.example.Amaze.Dto.ReuestDto.ProductRequest;
+import com.example.Amaze.Dto.RequestDto.ProductRequest;
 import com.example.Amaze.Enum.ProductStatus;
 import com.example.Amaze.Model.Product;
 

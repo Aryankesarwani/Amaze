@@ -1,6 +1,5 @@
-package com.example.Amaze.Dto.ReuestDto;
+package com.example.Amaze.Dto.RequestDto;
 
-import com.example.Amaze.Enum.Gender;
 import lombok.*;
 import lombok.experimental.FieldDefaults;
 
@@ -9,15 +8,12 @@ import lombok.experimental.FieldDefaults;
 @AllArgsConstructor
 @FieldDefaults(level = AccessLevel.PRIVATE)
 @Builder
-public class CustomerRequest {
-
-    String name;
+public class ItemRequest {
 
     String email;
 
-    String phone;
+    Integer product_Id;
 
-    String addr;
+    int quantity;
 
-    Gender gender;
 }

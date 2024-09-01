@@ -1,4 +1,4 @@
-package com.example.Amaze.Dto.ReuestDto;
+package com.example.Amaze.Dto.RequestDto;
 
 import com.example.Amaze.Enum.Category;
 import lombok.*;

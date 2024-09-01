@@ -2,7 +2,7 @@ package com.example.Amaze.Service.Impl;
 
 import com.example.Amaze.Dao.CustomerRepo;
 import com.example.Amaze.Dto.ResponseDto.CustomerResponse;
-import com.example.Amaze.Dto.ReuestDto.CustomerRequest;
+import com.example.Amaze.Dto.RequestDto.CustomerRequest;
 import com.example.Amaze.Model.Cart;
 import com.example.Amaze.Model.Customer;
 import com.example.Amaze.Service.CartService;

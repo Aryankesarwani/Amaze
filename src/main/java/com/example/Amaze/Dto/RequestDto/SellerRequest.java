@@ -1,11 +1,7 @@
-package com.example.Amaze.Dto.ReuestDto;
+package com.example.Amaze.Dto.RequestDto;
 
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
 import lombok.*;
 import lombok.experimental.FieldDefaults;
-
-import java.util.logging.Level;
 
 
 @Data
