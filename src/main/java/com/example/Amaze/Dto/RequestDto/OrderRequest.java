@@ -1,25 +1,23 @@
 package com.example.Amaze.Dto.RequestDto;
 
-import com.example.Amaze.Enum.CardType;
 import lombok.*;
 import lombok.experimental.FieldDefaults;
-
-import java.sql.Date;
 
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
 @FieldDefaults(level = AccessLevel.PRIVATE)
 @Builder
-public class CardRequest {
+public class OrderRequest {
 
     String email;
 
-    String cardNumber;
+    Integer productId;
 
-    CardType cardType;
-
-    Date expiry;
+    String cardNo ;
 
     int cvv;
+
+    int requiredQuantity;
+
 }

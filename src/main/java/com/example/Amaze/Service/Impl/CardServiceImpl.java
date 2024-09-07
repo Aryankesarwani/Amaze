@@ -29,7 +29,7 @@ public class CardServiceImpl implements CardService {
         //saving both card and customer
         Customer savedCustomer = customerRepo.save(customer);
 
-        return CardTransformer.entityTodto(cards);
+        return CardTransformer.entityTodto(savedCustomer.getCards().get(savedCustomer.getCards().size()-1));
 
     }
 }

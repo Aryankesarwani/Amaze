@@ -26,7 +26,7 @@ public class Cards {
 
     int cvv;
 
-    long cardNumber;
+    String cardNumber;
 
     @ManyToOne
     @JoinColumn

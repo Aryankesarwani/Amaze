@@ -12,6 +12,6 @@ import lombok.experimental.FieldDefaults;
 public class CardResponse {
 
     String name;
-    Long cardNumber;
+    String cardNumber;
     CardType cardType;
 }
